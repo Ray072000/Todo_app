@@ -22,13 +22,13 @@ class TodoController < ApplicationController
                 @todo_pomodoro_estimate = 2
           elsif todo_id=="6"
                 @todo_description= "watch tech videos"
-                @todo_pomodoro_estimate = 0
+                @todo_pomodoro_estimate = 1
           elsif todo_id=="7"
                 @todo_description= "sleep"
                 @todo_pomodoro_estimate = 0
            elsif todo_id=="8"
                 @todo_description= "finish"
-                @todo_pomodoro_estimate = 3
+                @todo_pomodoro_estimate = 10
           end
      end
 end
